@@ -2,6 +2,11 @@
 
 `optinomic-pdfmake` = PDF printing in pure JavaScript. For details check: http://pdfmake.org/
 
+### Installation
+```
+bower install -save Optinomic/optinomic-pdfmake
+```
+
 ## Porperties - Descripiton
 
 #### Details
