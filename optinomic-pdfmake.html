@@ -140,9 +140,9 @@
         // -------------------------------------
         __open_pdf: function() {
             this._create_dd();
+            var doc_title = this._create_document_name(this.documentTitle, this.headerLeft);
             var dd = {};
             dd = JSON.parse(JSON.stringify(this.get('_dd')));
-            var doc_title = this._create_document_name(this.documentTitle, this.headerLeft);
             console.log('PDF | open :: ' + doc_title, dd);
             pdfMake.createPdf(dd).open();
         },
